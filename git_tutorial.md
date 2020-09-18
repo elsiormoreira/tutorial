@@ -1,5 +1,4 @@
 # GIT AND GITHUB TUTORIAL
-
 *By Elsior Moreira Alves Junior*
 
 *2020, 18 Setembro*
@@ -29,29 +28,23 @@ directory to another directory*
 * **date** : *print on screen actual date and time*
 
 
-
 ## SETUP GIT BASH WORK DIRECTORY
 Acessar o link a seguir para configurar a pasta de trabalho padrão que será 
 exibida no prompt do git bash quando a janela de trabalho for aberta.
  
 * https://stackoverflow.com/questions/53606099/how-to-set-the-startup-directory-in-git-bash
 
+
 ## LIST OF COMMANDS
 * **git --version** : *check your current version of git*
 * **git update-git-for-windows** : *upgrade to the latest version of git*
-
-
 * **git config --global user.name "[your_name]"** : *tag each commit with the 
 user name of the person that made the commit*
 * **git config --global user.email "[your_email]"** : *tag each commit with 
 the user email of the person that made the commit*
 * **git config --list** : *confirm all your config changes*
-
-
 * **touch .gitignore** : *create a file to specifies intentionally untracked 
 files to ignore. There is a bug if you use explorer to create that type of file*
-
-
 * **git init** : *Create an empty git repository  in a existing directory or 
 reinitialize an existing one. You have to move to your local directory before
 start this process.*
@@ -61,8 +54,6 @@ under <remote_name>.
 Ex: git remote add origin https://github.com/elsiormoreira/my_project.git*
 * **git push -u [remote_name] [local_branch_name]** : *Once you have mapped the 
 remote repo you can push local branches to it. Ex: git push -u origin master*
-
-
 * **git status** : *check file status (added, committed or pushed)*
 * **git add <file_name> or <*> or <.>** : *add file contents  to the index*
 * **git reset** : *undo previous “git add” command*
@@ -80,7 +71,6 @@ to print on screen.*
 
 
 ## REFERENCES AND WEB SOURCE
-
 * https://git-scm.com/book/en/v2
 * https://git-scm.com/docs
 * https://www.freecodecamp.org/news/understanding-git-basics-commands-tips-tricks/
