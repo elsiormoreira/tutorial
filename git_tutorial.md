@@ -29,8 +29,8 @@ directory to another one*
 
 
 ## SETUP GIT BASH WORK DIRECTORY
-Acessar o link a seguir para configurar a pasta de trabalho padrão que será 
-exibida no prompt do git bash quando a janela de trabalho for aberta.
+Access the link below to folowup a step by step tutorial to configure your git bash
+work directory for a standard open folder every time you start to sue git bash.
  
 * https://stackoverflow.com/questions/53606099/how-to-set-the-startup-directory-in-git-bash
 
