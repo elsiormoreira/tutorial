@@ -5,26 +5,26 @@
 
 ## COMMAND LINE INTERFACE (CLI)
 * **pwd** : *display current working directory path*
-* **clear** : *clear CLI windows*
+* **clear/ctrl + L** : *clear CLI windows*
 * **ls** : *list files and folder in the current directory*
 * **ls -a** : *list hidden and unhidden files and folders*
 * **ls -al** : *list details for hidden and unhidden files and folders*
 * **cd** : change to home directory
-* **cd [file_name] or [directory]** : *change to specified file or directory*
+* **cd [file_name] or [directory_name]** : *change to specified file or directory*
 * **cd ..** : *move back one directory*
-* **mkdir** : *create a new directory*
-* **touch <file_name>** : *create an empty file*
-* **echo <”text”> >> <file_name>** : *appends (>>) a text inside a file. e.g.: 
-echo “# To Do List” >> README.md*
-* **echo <”text”> > <file_name>** : *overwrites (>) a text inside a file. e.g.: 
-echo “# To Do List” > README.md*
-* **cp <file_name> <path>** : *copy file to specify path*
-* **cp -r <first_directory> <second_directory>** : *copy all files from one 
-directory to another directory*
-* **rm <file_name>** : *remove a file*
-* **rm -r <directory>** : *remove a directory*
-* **mv <file_name> <directory>** : *move a file to another directory*
-* **mv <file_name_01> <file_name_02>** : *rename a file*
+* **mkdir [directory_name]** : *create a new directory*
+* **rm -r [directory_name]** : *remove a directory*
+* **touch [file_name]** : *create an empty file*
+* **rm [file_name]** : *remove a file*
+* **echo [”text”] >> [file_name]** : *appends (>>) a text inside a file. (e.g.: 
+echo “# To Do List” >> README.md)*
+* **echo [”text”] > [file_name]** : *overwrites (>) a text inside a file. (e.g.: 
+echo “# To Do List” > README.md)*
+* **cp [file_name] [path_name]** : *copy file to specify path*
+* **cp -r [first_directory_path] [second_directory_path]** : *copy all files from one 
+directory to another one*
+* **mv [file_name] [directory_name]** : *move a file to another directory*
+* **mv [file_name_01] [file_name_02]** : *rename a file*
 * **date** : *print on screen actual date and time*
 
 
