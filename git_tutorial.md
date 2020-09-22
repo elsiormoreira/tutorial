@@ -13,18 +13,20 @@
 * **cd [file_name] or [directory]** : *change to specified file or directory*
 * **cd ..** : *move back one directory*
 * **mkdir** : *create a new directory*
-* **touch <file_name>** : *create an empty file*
-* **echo <”text”> >> <file_name>** : *appends (>>) a text inside a file. e.g.: 
+* **touch [file_name]** : *create an empty file*
+* **echo [”text”] >> [file_name]** : *appends (>>) a text inside a file. e.g.: 
 echo “# To Do List” >> README.md*
-* **echo <”text”> > <file_name>** : *overwrites (>) a text inside a file. e.g.: 
+* **echo [”text”] > [file_name]** : *overwrites (>) a text inside a file. e.g.: 
 echo “# To Do List” > README.md*
-* **cp <file_name> <path>** : *copy file to specify path*
-* **cp -r <first_directory> <second_directory>** : *copy all files from one 
+* **notepad .gitignore** : *open a .gitignore file (and any other file) inside 
+notepad text editor*
+* **cp [file_name] [path]** : *copy file to specify path*
+* **cp -r [first_directory] [second_directory]** : *copy all files from one 
 directory to another directory*
-* **rm <file_name>** : *remove a file*
-* **rm -r <directory>** : *remove a directory*
-* **mv <file_name> <directory>** : *move a file to another directory*
-* **mv <file_name_01> <file_name_02>** : *rename a file*
+* **rm [file_name]** : *remove a file*
+* **rm -r [directory]** : *remove a directory*
+* **mv [file_name] [directory]** : *move a file to another directory*
+* **mv [file_name_01] [file_name_02]** : *rename a file*
 * **date** : *print on screen actual date and time*
 
 
@@ -82,3 +84,4 @@ to print on screen.*
 * https://docs.google.com/document/d/1qd7_JSJOPYD0DhcMDvi2e9EKXwkyYzpTaq09CHoK_CA/edit
 * https://docs.google.com/document/d/1qd7_JSJOPYD0DhcMDvi2e9EKXwkyYzpTaq09CHoK_CA/edit
 * https://chris.beams.io/posts/git-commit/
+* https://docs.github.com/pt
