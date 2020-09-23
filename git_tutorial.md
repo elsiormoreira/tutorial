@@ -33,20 +33,30 @@ directory to another directory*
 ## SETUP GIT BASH WORK DIRECTORY
 Acessar o link a seguir para configurar a pasta de trabalho padrão que será 
 exibida no prompt do git bash quando a janela de trabalho for aberta.
- 
+
 * https://stackoverflow.com/questions/53606099/how-to-set-the-startup-directory-in-git-bash
 
 
-## LIST OF COMMANDS
+## GIT MOST USED COMMANDS
+
+### Git configuration
 * **git --version** : *check your current version of git*
+
+![git version command output](./img/git_version.jpg)
+<img src="img/git_version.jpg" width="200"/>
+
 * **git update-git-for-windows** : *upgrade to the latest version of git*
 * **git config --global user.name "[your_name]"** : *tag each commit with the 
 user name of the person that made the commit*
 * **git config --global user.email "[your_email]"** : *tag each commit with 
 the user email of the person that made the commit*
 * **git config --list** : *confirm all your config changes*
-* **touch .gitignore** : *create a file to specifies intentionally untracked 
+* **touch .gitignore** : *before start to use git you have to create .gitignore
+file to avoid future bug. Create a file to specifies intentionally untracked 
 files to ignore. There is a bug if you use explorer to create that type of file*
+
+
+### Create a repository from your computer
 * **git init** : *Create an empty git repository  in a existing directory or 
 reinitialize an existing one. You have to move to your local directory before
 start this process.*
@@ -56,20 +66,40 @@ under <remote_name>.
 Ex: git remote add origin https://github.com/elsiormoreira/my_project.git*
 * **git push -u [remote_name] [local_branch_name]** : *Once you have mapped the 
 remote repo you can push local branches to it. Ex: git push -u origin master*
+
+
+### Create a repository from github
+
+
+### Commit files
 * **git status** : *check file status (added, committed or pushed)*
-* **git add <file_name> or <*> or <.>** : *add file contents  to the index*
-* **git reset** : *undo previous “git add” command*
-* **git commit -m ‘<message>’** : *record changes to the repository*
-* **git commit --amend -m ‘<message>’** : *edit previous commit message*
-* **git rm <file_name>** : *remove files from the working tree and stage area*
-* **git diff** : *show changes between commits*
-* **git diff --staged** : *only show changes from files in the staged area*
-* **git log** : *show commit log*
-* **git log --pretty=oneline** : *prints on screen each commit on a single line*
-* **git log -p [-n]** : *Show commit logs information but with a diff directly
+* **git add [file_name] or [*] or [.]** : *add file contents  to the index*
+* **git commit -m ‘[message]’** : *record changes to the repository*
+
+
+### Check file changes 
+* **git diff** : *between unstaged files and commited ones*
+* **git diff --staged** : *between staged files and commited ones*
+* **got diff HEAD** : *between staged + unstaged files and commited ones*
+* **gitk** : *open git repository browser. Best way to see diff logs.*
+
+
+### View commit history
+* **git log** : *print out commit log*
+* **git log --oneline** : *print out each commit on a single line*
+* **git log -p [-n]** : *Print out commit logs information with a diff directly
 following each entry. Argument "-n" will show the last "n" commit that you want 
 to print on screen.*
-* **gitk** : *open git repository browser. Best way to see diff logs.*
+
+### Remove files from staging area
+* **git commit --amend -m ‘<message>’** : *edit previous commit message*
+* **git reset** : *undo previous “git add” command*
+* **git rm <file_name>** : *remove files from the working tree and stage area*
+
+
+### Undo things
+* **git restore [file_name]** : *to discard changes in working directory*
+* **git restore --staged [file_name]** : *unstage files*
 
 
 ## REFERENCES AND WEB SOURCE
