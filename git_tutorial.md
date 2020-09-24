@@ -123,7 +123,7 @@ to print on screen.*
 * https://www.freecodecamp.org/news/understanding-git-basics-commands-tips-tricks/
 * https://www.geeksforgeeks.org/using-git-on-commandline/?ref=lbp
 * [Git - Guia Prático](http://rogerdudler.github.io/git-guide/index.pt_BR.html)
-* https://lab.github.com/
+* [Github Learning Lab](https://lab.github.com/)
 * https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud
 * https://www.codecademy.com/learn/learn-git
 * https://docs.google.com/document/d/1qd7_JSJOPYD0DhcMDvi2e9EKXwkyYzpTaq09CHoK_CA/edit
