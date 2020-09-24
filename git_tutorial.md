@@ -43,11 +43,10 @@ directory to another one*
 * **date** : *print on screen actual date and time*
 
 
-## SETUP GIT BASH WORK DIRECTORY
-Access the link below to folowup a step by step tutorial to configure your git bash
-work directory for a standard open folder every time you start to sue git bash.
+## SET GIT BASH STARTUP DIRECTORY
+Access the link below and find a step by step tutorial to set startup directory in git bash.
  
-* https://stackoverflow.com/questions/53606099/how-to-set-the-startup-directory-in-git-bash
+* [Set startup directory in git bash](https://stackoverflow.com/questions/53606099/how-to-set-the-startup-directory-in-git-bash)
 
 
 ## GIT MOST USED COMMANDS
