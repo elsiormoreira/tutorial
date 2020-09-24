@@ -9,6 +9,7 @@
 * **ls** : *list files and folder in the current directory*
 * **ls -a** : *list hidden and unhidden files and folders*
 * **ls -al** : *list details for hidden and unhidden files and folders*
+* **cmd //c tree //f** : *print out a tree view from current directory*
 * **cd** : change to home directory
 * **cd [file_name] or [directory]** : *change to specified file or directory*
 * **cd ..** : *move back one directory*
@@ -102,6 +103,10 @@ to print on screen.*
 * **git restore --staged [file_name]** : *unstage files*
 
 
+### COURSE SUGGESTION
+* [Coursera - Version Control with Git](https://www.coursera.org/learn/version-control-with-git?ranMID=40328&ranEAID=BuGceriufQM&ranSiteID=BuGceriufQM-SLxn_q_dKbzyr_dqlx32ug&siteID=BuGceriufQM-SLxn_q_dKbzyr_dqlx32ug&utm_content=10&utm_medium=partners&utm_source=linkshare&utm_campaign=BuGceriufQM#syllabus)
+
+
 ## REFERENCES AND WEB SOURCE
 * https://git-scm.com/book/en/v2
 * https://git-scm.com/docs
@@ -115,3 +120,4 @@ to print on screen.*
 * https://docs.google.com/document/d/1qd7_JSJOPYD0DhcMDvi2e9EKXwkyYzpTaq09CHoK_CA/edit
 * https://chris.beams.io/posts/git-commit/
 * https://docs.github.com/pt
+* https://tutorials.botsfloor.com/top-tutorials-to-learn-git-for-beginners-622289ffdfe5
