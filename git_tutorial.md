@@ -118,11 +118,8 @@ to print on screen.*
 
 
 ## REFERENCES AND WEB SOURCE
-* https://git-scm.com/book/en/v2
-* https://git-scm.com/docs
-* https://www.freecodecamp.org/news/understanding-git-basics-commands-tips-tricks/
-* https://www.geeksforgeeks.org/using-git-on-commandline/?ref=lbp
-* [Git - Guia Prático](http://rogerdudler.github.io/git-guide/index.pt_BR.html)
+* [Git Tutotials and Training Atlassian](https://www.atlassian.com/git/tutorials)
+* [Git Guia Prático](http://rogerdudler.github.io/git-guide/index.pt_BR.html)
 * [Github Learning Lab](https://lab.github.com/)
 * https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud
 * https://www.codecademy.com/learn/learn-git
