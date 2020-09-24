@@ -5,14 +5,15 @@
 
 ## COMMAND LINE INTERFACE (CLI)
 * **pwd** : *display current working directory path*
-* **clear** : *clear CLI windows*
+* **clear/ctrl + L** : *clear CLI windows*
 * **ls** : *list files and folder in the current directory*
 * **ls -a** : *list hidden and unhidden files and folders*
 * **ls -al** : *list details for hidden and unhidden files and folders*
 * **cmd //c tree //f** : *print out a tree view from current directory*
 * **cd** : change to home directory
-* **cd [file_name] or [directory]** : *change to specified file or directory*
+* **cd [file_name] or [directory_name]** : *change to specified file or directory*
 * **cd ..** : *move back one directory*
+<<<<<<< HEAD
 * **mkdir** : *create a new directory*
 * **touch [file_name]** : *create an empty file*
 * **echo [”text”] >> [file_name]** : *appends (>>) a text inside a file. e.g.: 
@@ -27,14 +28,34 @@ directory to another directory*
 * **rm [file_name]** : *remove a file*
 * **rm -r [directory]** : *remove a directory*
 * **mv [file_name] [directory]** : *move a file to another directory*
+=======
+* **mkdir [directory_name]** : *create a new directory*
+* **rm -r [directory_name]** : *remove a directory*
+* **touch [file_name]** : *create an empty file*
+* **rm [file_name]** : *remove a file*
+* **echo [”text”] >> [file_name]** : *appends (>>) a text inside a file. (e.g.: 
+echo “# To Do List” >> README.md)*
+* **echo [”text”] > [file_name]** : *overwrites (>) a text inside a file. (e.g.: 
+echo “# To Do List” > README.md)*
+* **cp [file_name] [path_name]** : *copy file to specify path*
+* **cp -r [first_directory_path] [second_directory_path]** : *copy all files from one 
+directory to another one*
+* **mv [file_name] [directory_name]** : *move a file to another directory*
+>>>>>>> 734e937c1f8150f1a8717fb9569ecd8a30205703
 * **mv [file_name_01] [file_name_02]** : *rename a file*
 * **date** : *print on screen actual date and time*
 
 
 ## SETUP GIT BASH WORK DIRECTORY
+<<<<<<< HEAD
 Acessar o link a seguir para configurar a pasta de trabalho padrão que será 
 exibida no prompt do git bash quando a janela de trabalho for aberta.
 
+=======
+Access the link below to folowup a step by step tutorial to configure your git bash
+work directory for a standard open folder every time you start to sue git bash.
+ 
+>>>>>>> 734e937c1f8150f1a8717fb9569ecd8a30205703
 * https://stackoverflow.com/questions/53606099/how-to-set-the-startup-directory-in-git-bash
 
 
@@ -119,5 +140,8 @@ to print on screen.*
 * https://docs.google.com/document/d/1qd7_JSJOPYD0DhcMDvi2e9EKXwkyYzpTaq09CHoK_CA/edit
 * https://docs.google.com/document/d/1qd7_JSJOPYD0DhcMDvi2e9EKXwkyYzpTaq09CHoK_CA/edit
 * https://chris.beams.io/posts/git-commit/
+<<<<<<< HEAD
 * https://docs.github.com/pt
 * https://tutorials.botsfloor.com/top-tutorials-to-learn-git-for-beginners-622289ffdfe5
+
+
