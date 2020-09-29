@@ -121,6 +121,7 @@ to print on screen.*
 * [Git Tutotials and Training Atlassian](https://www.atlassian.com/git/tutorials)
 * [Git Guia Prático](http://rogerdudler.github.io/git-guide/index.pt_BR.html)
 * [Github Learning Lab](https://lab.github.com/)
+* [Git Best Practices, *Seth Robertson*](https://sethrobertson.github.io/GitBestPractices/)
 * https://www.codecademy.com/learn/learn-git
 * https://docs.google.com/document/d/1qd7_JSJOPYD0DhcMDvi2e9EKXwkyYzpTaq09CHoK_CA/edit
 * https://docs.google.com/document/d/1qd7_JSJOPYD0DhcMDvi2e9EKXwkyYzpTaq09CHoK_CA/edit
